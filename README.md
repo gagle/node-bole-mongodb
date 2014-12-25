@@ -18,7 +18,7 @@ var url = ...
 MongoClient.connect (url, function (error, db){
   if (error) return console.error (error);
   
-  var mongoLogStream = boleMongo ({ db: db, capped: true })
+  var boleMongoStream = boleMongo ({ db: db, capped: true })
     //The error handler shouldn't be called. If it is called, then something is
     //wrong with the database url or connection options, so it's up to you
     //how to handle these kind of errors: crashing the server (without
@@ -26,7 +26,7 @@ MongoClient.connect (url, function (error, db){
     .on ("error", console.error);
   
   bole.output ([
-    { level: 'error', stream: mongoLogStream }
+    { level: 'error', stream: boleMongoStream }
   ]);
   
   ...
