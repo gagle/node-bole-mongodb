@@ -1,0 +1,13 @@
+{
+  "name": "bole-mongodb",
+  "version": "0.1.0",
+  "description": "MongoDB stream for the bole logger",
+  "keywords": ["bole", "mongodb"],
+  "author": "Gabriel Llamas <gagle@outlook.com>",
+  "repository": "git://github.com/gagle/node-bole-mongodb.git",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "license": "MIT",
+  "main": "lib"
+}
