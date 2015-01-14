@@ -1,5 +1,8 @@
+v0.2.0 (14 Jan 2015)
+  Changed default collection name to 'logs'.
+
 v0.1.1 (25 Dec 2014)
-	Bump version.
+  Bump version.
 
 v0.1.0 (25 Dec 2014)
-	First release.
+  First release.
