@@ -47,15 +47,15 @@ Options:
 - __db__ - _Object_  
   MongoDB `Db` instance. This option is mandatory.
 - __collection__ - _String_  
-  Name of the collection. Default "log".
+  Name of the collection. Default `logs`.
 - __capped__ - _Boolean_  
-  If the collection doesn't exist, creates a new capped collection. Default false.
+  If the collection doesn't exist, creates a new capped collection. Default `false`.
 - __size__ - _Number_  
-  Size of the capped collection. Default 10000000 (10MB rounded up to the nearest multiple of 256).
+  Size in bytes of the capped collection. Default `10000000` (10MB rounded up to the nearest multiple of 256).
 - __max__ - _Number_  
-  Maximum number of documents allowed in the capped collection. Default undefined.
+  Maximum number of documents allowed in the capped collection. Default `undefined`.
 - __force__ - _Boolean_  
-  If the collection already exists, it is converted into a capped collection. Default false.
+  If the collection already exists, it is converted into a capped collection. Default `false`.
 
 [npm-version-image]: http://img.shields.io/npm/v/bole-mongodb.svg
 [npm-install-image]: https://nodei.co/npm/bole-mongodb.png?mini=true
