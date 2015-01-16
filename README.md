@@ -48,7 +48,7 @@ Options:
 - __force__ - _Boolean_  
   If the collection already exists, it is converted into a capped collection. Default `false`.
 
-[npm-image]: http://img.shields.io/npm/v/bole-mongodb.svg
+[npm-image]: http://img.shields.io/npm/v/bole-mongodb.svg?style=flat
 [npm-url]: https://npmjs.org/package/bole-mongodb
 [bole-url]: https://github.com/rvagg/bole
 [capped-collection]: http://docs.mongodb.org/manual/core/capped-collections
