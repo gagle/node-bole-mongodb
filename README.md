@@ -29,7 +29,6 @@ The `Db` object is required. Instead of opening a new connection from inside the
 
 MongoDB has the concept of a [Capped collection][capped-collection] and it can be used for logging purposes. This plugin tries to create a capped collection for the first time a message is logged, and it can be forced to convert an existing one into a capped collection.
 
-<a name="create"></a>
 ___module_(options) : Writable__  
 Returns a new Writable stream instance.
 
