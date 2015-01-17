@@ -1,6 +1,6 @@
 {
   "name": "bole-mongodb",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "MongoDB stream for the bole logger",
   "keywords": [
     "bole",

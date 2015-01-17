@@ -27,7 +27,7 @@ MongoClient.connect(url, function (err, db) {
 
 The `Db` object is required. Instead of opening a new connection from inside the plugin, the user is responsible for the connection's lifecycle. Therefore, this plugin assumes that the connection is already open. However, it won't fail if it's not.
 
-MongoDB has the concept of a [Capped collection][capped-collection] and it can be used for logging purposes. This plugin tries to create a capped collection for the first time a message is logged, and it can be forced to convert an existing one into a capped collection.
+MongoDB has the concept of a [Capped collection][capped-collection] and it can be used for logging purposes. This plugin tries to create a capped collection each time a message is logged. Therefore, it's not required to have the connection open at the time of registering the plugin.
 
 ___module_(options) : Writable__  
 Returns a new Writable stream instance.
